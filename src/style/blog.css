@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.blog-heading-sec{
+    background-image: url("../images//blog\ header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+}
+.blog-heading>p {
+color: #fff;
+font-size: 90px;
+font-weight: 800;
+font-family: 'Abril Fatface', serif;
+letter-spacing: 5px;
+margin: 15px;
+min-width: 100%;
+}
+
+@media only screen and (max-width:400px) {
+.blog-heading>p {
+    font-size: 50px;
+}
+}
+.blog-heading>p >span{
+    color: #ED51C2;
+}
+.blog-heading>span{
+color: #fff;
+padding: 10px 20px;
+font-family: 'Times New Roman', Times, serif;
+line-height: 25px;
+font-size: 18px;
+letter-spacing: 1px;
+word-spacing: 5px;
+
+}
+.blog-section-2{
+    padding: 80px 20px;
+    background-color: #F6F6F9;
+}
+.blog-sec-2-heading{
+    padding: 20px;
+    display: flex;
+    flex-direction: column !important ;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-sec-2-heading>h1{
+    color: #000887;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Abril Fatface', serif;
+    word-spacing: 10px;
+    margin: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+@media only screen and (max-width:250px) {
+    .blog-sec-2-heading>h1{
+        font-size: 30px;
+    }
+    .blog-heading>p {
+        font-size: 30px;
+    }
+}
+.blog-sec-2-heading>h1>span{
+    color: #ED51C2;
+}
+.blog-sec-2-heading>span{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: #646464;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.blog-sec-2-card{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    margin-top: 30px !important;
+}
+.blog-sec-2-card>p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #000887;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.blog-section-3>p{
+color: #000887;
+font-size: 50px;
+font-weight: 800;
+font-family: 'Abril Fatface', serif;
+word-spacing: 10px;
+margin: 15px;
+text-align: center;
+letter-spacing: 2px;
+}
+.blog-section-3>p>span{
+    color: #ED51C2;
+}
+.blog-sec-3-data{
+    margin-top: 50px;
+}
+.blog-sec-3-card{
+    padding: 20px 30px;
+    margin-top: 40px !important;
+}
+.blog-sec-3-card>img{
+    width: 100%;
+    border-radius: 15px;
+}
+.blog-sec-3-card>h1{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.blog-sec-3-card>span{
+font-family: 'Times New Roman', Times, serif;
+font-size: 15px;
+color: #646464;
+margin-top: 10px;
+line-height: 20px;
+}

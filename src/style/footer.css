@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.footer {
+    background-color: #000887;
+    margin-top: 60px;
+}
+
+.footer-form-sec {
+    padding: 40px;
+}
+
+.footer-heading {
+    padding-right: 80px;
+}
+
+.footer-heading>p {
+    color: #ffff;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Abril Fatface', serif;
+    word-spacing: 10px;
+    /* margin: 15px; */
+    letter-spacing: 2px;
+
+}
+
+.footer-heading>p>span {
+    color: #ED51C2;
+}
+
+.footer-heading>span {
+    color: #ffff;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 25px;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.footer-form {
+    padding: 20px 5px;
+}
+
+.footer-form>label {
+    color: white;
+}
+
+.input {
+    outline: none !important;
+    border: none !important;
+    width: 100%;
+    border: 1px solid gray !important;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #9398CC;
+}
+
+.input:focus {
+    background-color: white;
+}
+
+.textarea:focus {
+    background-color: white;
+}
+
+.textarea {
+    border: none;
+    background: none;
+    outline: none;
+    border: 1px solid gray;
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    background-color: #9398CC;
+
+}
+
+.footer-form>button {
+    background-color: #ED51C2;
+    padding: 10px 30px;
+    text-align: center;
+    border: none;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.footer-ring {
+    background-color: #000887;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-ring>img {
+    width: 100%;
+    height: 700px;
+}
+
+@media only screen and (max-width: 900px) {
+    .footer-ring>img {
+        width: 200px;
+        height: 200px;
+        display: flex;
+        align-items: center;
+
+    }
+
+}
+
+.footer-last-sec {
+    padding: 20px;
+
+}
+
+@media only screen and (max-width: 900px) {
+    .tech {
+        display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+
+}
+
+.tech>p {
+    margin-top: 40px;
+    color: #ffff;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    word-spacing: 10px;
+    /* margin: 15px; */
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-details>p {
+    color: #ED51C2;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.contact-details>span {
+    color: #ffff;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
